@@ -1,0 +1,142 @@
+body {
+    display: relative;
+}
+header {
+    background-color: #7BCA70;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding-right: 30px;
+}
+img {
+    min-width: 75px;
+}
+.spacer {
+    background-color: #7BCA70;
+    height: 100px;
+}
+/* Title Section */
+.title {
+    background-color: #7BCA70;
+
+}
+.title-h1 {
+    padding: 10% 0 0 7%;
+    font-family: 'Muli';
+    font-weight: 900;
+    font-size: 3rem;
+}
+.title-p {
+    padding: 5% 0 0 7%;
+    font-family: 'Muli';
+    font-size: 1.5rem;
+}
+
+.title-img {
+    width: 100%;
+}
+
+/* Features Section */
+#features {
+    background-color: #fff;
+    padding: 10% 7%;
+    text-align: center;
+}
+.icons {
+    color: #7BCA70;
+    padding-bottom: 4%;
+}
+
+.feat-h2 {
+    font-weight: 600;
+}
+
+/* Video Section */
+.video-sect {
+    background-color: #7BCA70;
+    padding: 8%;
+    display: flex;
+    justify-content: center;
+}
+iframe {
+    width: 60%;
+    height: 20rem;
+}
+
+/* Pricing Section */
+
+#pricing {
+    background-color: #fff;
+    padding: 9% 3% 5%;
+}
+
+/* Form Section */
+#form-sect {
+    background-color: #7BCA70;
+    text-align: center;
+    padding: 7%;
+}
+.p-form {
+    font-family: 'Muli';
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+.h2-form {
+    font-family: 'Muli';
+    font-weight: 900;
+}
+.form-div {
+    padding-top: 3%;
+}
+#submit {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+    font-family: 'Muli';
+}
+#email {
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    width: 400px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+/* Footer Section */
+footer {
+    padding: 3%;
+    text-align: center;
+}
+.footer-p {
+    font-family: 'Muli';
+    margin-bottom: 0;
+}
+
+@media (max-width: 400px) {
+    #email {
+        border: none;
+        border-radius: 3px;
+        height: 40px;
+        width: 80%;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+    iframe {
+        width: 80%;
+        height: 60%;
+    }
+    }
+
+    @media (min-width: 1200px) {
+    .title-h1 {
+        padding-top: 25%;
+        padding-left: 20%;
+    }
+    .title-p {
+        padding-left: 20%;
+    }
+
+}
